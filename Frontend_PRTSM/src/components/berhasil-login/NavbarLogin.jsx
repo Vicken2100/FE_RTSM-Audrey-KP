@@ -1,6 +1,6 @@
 import React from "react";
 // import logoApk from "../../img/iconApk.png";
-import logoApk from "../../img/iconApk.png"
+import logoApk from "../../img/iconApk.png";
 import { IoPersonCircle } from "react-icons/io5";
 import { Link } from "react-router-dom";
 const NavbarLogin = () => {
@@ -14,11 +14,21 @@ const NavbarLogin = () => {
           </p>
         </div>
         <div className="flex items-center gap-10">
-          <Link to={"/home"} className="font-semibold text-black">Beranda</Link>
-          <Link to={"/presensi"} className="font-semibold text-black">Presensi</Link>
-          <Link to={"/penggajian"} className="font-semibold text-black">Penggajian</Link>
-          <Link to={"/penilaian-kinerja"} className="font-semibold text-black">Penilaian Kinerja</Link>
-          <IoPersonCircle size={40} />
+          <Link to={"/home"} className="font-semibold text-black">
+            Beranda
+          </Link>
+          <Link to={"/presensi"} className="font-semibold text-black">
+            Presensi
+          </Link>
+          <Link to={"/penggajian"} className="font-semibold text-black">
+            Penggajian
+          </Link>
+          <Link to={"/Kinerja"} className="font-semibold text-black">
+            Penilaian Kinerja
+          </Link>
+          <Link to={"/ProfilSaya"} className="font-semibold text-black">
+            <IoPersonCircle size={40} />
+          </Link>
         </div>
       </div>
     </div>

@@ -6,6 +6,10 @@ import PresensiPage from "./pages/PresensiPage";
 import DetailPresensiPage from "./pages/DetailPresensiPage";
 import PenggajianPage from "./pages/PenggajianPage";
 import DetailPenggajianPage from "./pages/DetailPenggajianPage";
+import PKinerjaPage from "./pages/PKinerjaPage";
+import DetailPKinerjaPage from "./pages/DetailPKinerjaPage";
+import DataKaryawanPage from "./pages/DataKaryawanPage";
+import ProfilSayaPage from "./pages/ProfilSayaPage";
 
 function App() {
   return (
@@ -19,6 +23,10 @@ function App() {
           <Route path="/presensi/:id" element={<DetailPresensiPage />} />
           <Route path="/penggajian" element={<PenggajianPage />} />
           <Route path="/penggajian/:id" element={<DetailPenggajianPage />} />
+          <Route path="/kinerja" element={<PKinerjaPage />} />
+          <Route path="/kinerja/:id" element={<DetailPKinerjaPage />} />
+          <Route path="/DataKaryawan" element={<DataKaryawanPage />} />
+          <Route path="/ProfilSaya" element={<ProfilSayaPage />} />
         </Routes>
       </BrowserRouter>
     </div>

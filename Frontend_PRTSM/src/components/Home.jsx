@@ -20,8 +20,11 @@ const Home = () => {
       <div className="absolute inset-0 flex justify-center items-center">
         <div className="font-bold  text-white text-center absolute top-44">
           <p className="text-2xl">PT. REKAN TANI SUKSES MAKMUR</p>
-        <p className="text-lg mt-5">Sejak 2021 membantu petani Indonesia dalam bidang<br />
-        perdagangan pupuk dan pestisida.</p>
+          <p className="text-lg mt-5">
+            Sejak 2021 membantu petani Indonesia dalam bidang
+            <br />
+            perdagangan pupuk dan pestisida.
+          </p>
         </div>
       </div>
       <div className="relative w-full">
@@ -57,7 +60,7 @@ const Home = () => {
               </div>
             </Link>
             <Link
-              to={"/penilaian-kinerja"}
+              to={"/Kinerja"}
               className="bg-[#D5F2CB] border border-[#174A04] rounded-lg p-6 flex justify-center items-center transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
             >
               <div className="flex flex-col justify-center items-center w-full">
@@ -75,7 +78,7 @@ const Home = () => {
               </div>
             </Link>
             <Link
-              to={"/data-karyawan"}
+              to={"/DataKaryawan"}
               className="bg-[#D5F2CB] border border-[#174A04] rounded-lg p-6 flex justify-center items-center transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
             >
               <div className="flex flex-col justify-center items-center w-full">

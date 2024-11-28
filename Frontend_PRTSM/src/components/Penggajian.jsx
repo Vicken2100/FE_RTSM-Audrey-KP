@@ -58,46 +58,125 @@ const Penggajian = () => {
                   Suryanto
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                Rp.3.500.000
+                  Rp.3.500.000
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                Rp.500.000
+                  Rp.500.000
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                Rp.500.000
+                  Rp.500.000
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                Rp.375.000
+                  Rp.375.000
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                Rp.200.000
+                  Rp.200.000
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                Rp.5.125.000
+                  Rp.5.125.000
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  <Link to={`/penggajian/1`} className="bg-[#DEFABB] p-1 rounded-md border border-gray-500 ">Tampilkan</Link>
-                  </td>
+                  <Link
+                    to={`/penggajian/1`}
+                    className="bg-[#DEFABB] p-1 rounded-md border border-gray-500 "
+                  >
+                    Tampilkan
+                  </Link>
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  1
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Yanto
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Rp.3.500.000
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Rp.500.000
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Rp.500.000
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Rp.375.000
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Rp.200.000
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Rp.5.125.000
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  <Link
+                    to={`/penggajian/2`}
+                    className="bg-[#DEFABB] p-1 rounded-md border border-gray-500 "
+                  >
+                    Tampilkan
+                  </Link>
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  1
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Surya
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Rp.3.500.000
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Rp.500.000
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Rp.500.000
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Rp.375.000
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Rp.200.000
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  Rp.5.125.000
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  <Link
+                    to={`/penggajian/3`}
+                    className="bg-[#DEFABB] p-1 rounded-md border border-gray-500 "
+                  >
+                    Tampilkan
+                  </Link>
+                </td>
               </tr>
               <tr>
                 <td colSpan={2} className="bg-[#174A04]"></td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  Total pengeluaran
+                  Total pengeluaran <br />
+                  Rp. 10.000.000
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  Total pengeluaran
+                  Total pengeluaran <br />
+                  Rp. 10.000.000
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  Total pengeluaran
+                  Total pengeluaran <br />
+                  Rp. 10.000.000
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  Total pengeluaran
+                  Total pengeluaran <br />
+                  Rp. 10.000.000
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  Total pengeluaran
+                  Total pengeluaran <br />
+                  Rp. 10.000.000
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  Total pengeluaran
+                  Total pengeluaran <br />
+                  Rp. 10.000.000
                 </td>
                 <td className="bg-[#174A04]"></td>
               </tr>

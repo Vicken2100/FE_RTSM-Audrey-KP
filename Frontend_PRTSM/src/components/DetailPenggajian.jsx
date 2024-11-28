@@ -88,6 +88,72 @@ const DetailPenggajian = () => {
               </td>
             </tr>
             <tr>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                1
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                22-02-2023
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                Manado
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                05-00
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                21-00
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                Rp.25.000
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                Rp.30.000
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                1 Jam
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                <select className="rounded-lg border w-full border-gray-500 p-1">
+                  <option value="">Pilih</option>
+                  <option value="">Diambil</option>
+                  <option value="">Ditolak</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                1
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                22-02-2023
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                Manado
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                05-00
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                21-00
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                Rp.25.000
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                Rp.30.000
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                1 Jam
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                <select className="rounded-lg border w-full border-gray-500 p-1">
+                  <option value="">Pilih</option>
+                  <option value="">Diambil</option>
+                  <option value="">Ditolak</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
               <td colSpan={5} className="bg-[#174A04]"></td>
               <td className="border border-gray-300 px-4 py-2 text-center">
                 Total Uang Makan:
@@ -165,9 +231,11 @@ const DetailPenggajian = () => {
           </div>
         </div>
         <div className="flex gap-2 my-3 items-center">
-
           <p className="font-bold ">Total Gaji + Uang Makan dan Uang Lembur:</p>
-          <input type="text" className="bg-[#E5F1D5] border border-green-900 py-1 px-2" />
+          <input
+            type="text"
+            className="bg-[#E5F1D5] border border-green-900 py-1 px-2"
+          />
         </div>
       </div>
       <Footer />
