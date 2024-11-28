@@ -10,6 +10,7 @@ import PKinerjaPage from "./pages/PKinerjaPage";
 import DetailPKinerjaPage from "./pages/DetailPKinerjaPage";
 import DataKaryawanPage from "./pages/DataKaryawanPage";
 import ProfilSayaPage from "./pages/ProfilSayaPage";
+import PGajiPage from "./pages/PGajiPage";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/kinerja/:id" element={<DetailPKinerjaPage />} />
           <Route path="/DataKaryawan" element={<DataKaryawanPage />} />
           <Route path="/ProfilSaya" element={<ProfilSayaPage />} />
+          <Route path="/Pengaturan" element={<PGajiPage />} />
         </Routes>
       </BrowserRouter>
     </div>
