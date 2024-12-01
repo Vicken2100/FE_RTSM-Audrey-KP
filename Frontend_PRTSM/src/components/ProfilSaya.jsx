@@ -93,6 +93,9 @@ const ProfilSaya = () => {
                   <button className="bg-[#174A04] mt-3 text-white px-4 py-2 rounded-xl">
                     Simpan
                   </button>
+                  <button className="bg-[#ca0606] mt-3 text-white px-4 py-2 rounded-xl">
+                    Keluar Akun
+                  </button>
                 </div>
               </div>
 

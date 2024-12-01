@@ -105,11 +105,13 @@ const Regis = () => {
               <div className="w-full">
                 <p className="font-bold">Data Pekerjaan</p>
                 <div className="grid gap-y-2">
-                  <input
-                    className="inp-res"
-                    type="text"
-                    placeholder="Jabatan*"
-                  />
+                  <select name="" className="inp-res" id="">
+                    <option value="" disabled hidden>
+                      Jabatan
+                    </option>
+                    <option value="">Sopir</option>
+                    <option value="">Sales</option>
+                  </select>
                   <input
                     className="inp-res"
                     type="date"
@@ -135,7 +137,7 @@ const Regis = () => {
                     type="password"
                     placeholder="Konfirmasi Kata Sandi*"
                   />
-                  <input className="inp-res" type="text" placeholder="" />
+
                   <div className="grid grid-cols-3 gap-3 items-center">
                     <button className="bg-[#2E7316] mt-3 text-white px-4 py-2 rounded-3xl col-span-1">
                       Daftar Sidik Jari
@@ -152,7 +154,7 @@ const Regis = () => {
                     placeholder="Pin Alternatif"
                   />
 
-                  <p className="text-sm text-end m-0">Minimal 8 digit</p>
+                  <p className="text-sm text-end m-0">Harus 6 digit</p>
                   <p>Isi PIN alternatif untuk menggantikan sidik jari.</p>
                 </div>
                 <div className="flex items-center gap-4">

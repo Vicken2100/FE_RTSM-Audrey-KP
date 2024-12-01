@@ -111,7 +111,12 @@ const DetailPresensi = () => {
                 -
               </td>
               <td className="border border-gray-300 px-4 py-2 text-center">
-                -
+                <select className="rounded-sm border w-56 border-gray-500 p-1">
+                  <option value="">Manado</option>
+                  <option value="">Bitung</option>
+                  <option value="">Tondano</option>
+                  <option value="">Isekai</option>
+                </select>
               </td>
               <td className="border border-gray-300 px-4 py-2 text-center">
                 0
