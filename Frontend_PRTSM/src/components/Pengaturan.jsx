@@ -311,7 +311,7 @@ const Pengaturan = () => {
                 </thead>
                 <tbody>
                   <tr className="hover:bg-gray-50">
-                    <td className="px-4 py-3 border-b">Jam Mulai Kerja</td>
+                    <td className="px-4 py-3 border-b">Ketepatan Waktu</td>
                     <td className="px-4 py-3 border-b">
                       <input
                         type="text"
@@ -322,7 +322,7 @@ const Pengaturan = () => {
                     </td>
                   </tr>
                   <tr className="hover:bg-gray-50">
-                    <td className="px-4 py-3 border-b">Jam Selesai Kerja</td>
+                    <td className="px-4 py-3 border-b">Kerajinan</td>
                     <td className="px-4 py-3 border-b">
                       <input
                         type="text"
