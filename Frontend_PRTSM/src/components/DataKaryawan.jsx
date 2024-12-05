@@ -24,8 +24,6 @@ const DataKaryawan = () => {
                   Tanggal Masuk Pegawai
                 </th>
                 <th className="border border-gray-300 px-4 py-2 text-center">
-                  Tempat/
-                  <br />
                   Tanggal Lahir
                 </th>
                 <th className="border border-gray-300 px-4 py-2 text-center">
@@ -70,49 +68,49 @@ const DataKaryawan = () => {
                   1
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  Supriyadi Anggoman
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  Supir
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  23 Mei 2023
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  01/02/1980
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  Laki-Laki
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  1921681101109
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  081234567890
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  SupriGanteng@gmail.com
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  Belum Menikah
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  BNI
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  0102198969
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  Supriyadi Anggoman
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  Sulawesi Utara
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  Manado
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  ???
+                  Singkil
                 </td>
               </tr>
             </tbody>

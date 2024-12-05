@@ -88,11 +88,20 @@ const Presensi = () => {
                 <td className="border border-gray-300 px-4 py-2">
                   {item.sakit}
                 </td>
-                <td className="border border-gray-300 px-4 py-2">{item.cuti}</td>
-                <td className="border border-gray-300 px-4 py-2">{item.alpa}</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  {item.cuti}
+                </td>
+                <td className="border border-gray-300 px-4 py-2">
+                  {item.alpa}
+                </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
-                  <Link to={`/presensi/${item.id}`} className="bg-[#DEFABB] p-1 rounded-md border border-gray-500 ">Tampilkan</Link>
-                  </td>
+                  <Link
+                    to={`/presensi/${item.id}`}
+                    className="bg-[#DEFABB] p-1 rounded-md border border-gray-500 "
+                  >
+                    Tampilkan
+                  </Link>
+                </td>
               </tr>
             ))}
           </tbody>
